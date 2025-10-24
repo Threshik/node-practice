@@ -1,5 +1,6 @@
-const res = require("./data") 
-console.log(res)
+//const res = require("./data") 
+const {names} = require("./data")
+console.log(names)
 
 function sayHello(name){
     console.log("Hello "+name);
